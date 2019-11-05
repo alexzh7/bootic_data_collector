@@ -1,10 +1,9 @@
 package udp
 
 import (
+	"bootic_data_collector/data"
 	"log"
 	"net"
-
-	data "github.com/bootic/bootic_go_data"
 )
 
 // The UDP Daemon listens for incoming datagrams

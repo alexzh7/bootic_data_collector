@@ -1,9 +1,9 @@
 package ws
 
 import (
-	"code.google.com/p/go.net/websocket"
+	"bootic_data_collector/data"
 	"fmt"
-	data "github.com/bootic/bootic_go_data"
+	"golang.org/x/net/websocket"
 	"net/http"
 	"strings"
 )
@@ -12,7 +12,6 @@ type Connection struct {
 	// The websocket connection.
 	ws  *websocket.Conn
 	hub *Hub
-
 	// Buffered channel of outbound messages.
 	send data.EventsChannel
 

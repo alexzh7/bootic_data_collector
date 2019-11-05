@@ -1,8 +1,8 @@
 package firehose
 
 import (
+	"bootic_data_collector/data"
 	"fmt"
-	data "github.com/bootic/bootic_go_data"
 	"log"
 	"net/http"
 )

@@ -1,7 +1,7 @@
 package ws
 
 import (
-	data "github.com/bootic/bootic_go_data"
+	"bootic_data_collector/data"
 )
 
 type Hub struct {

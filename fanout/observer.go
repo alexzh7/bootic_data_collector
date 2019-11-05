@@ -1,9 +1,9 @@
 package fanout
 
 import (
+	"bootic_data_collector/data"
 	"bytes"
 	zmq "github.com/alecthomas/gozmq"
-	data "github.com/bootic/bootic_go_data"
 )
 
 type ZMQObserver struct {
